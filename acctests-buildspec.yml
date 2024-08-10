@@ -7,8 +7,4 @@ phases:
      - "touch acc_test_output.txt"
      - 'echo "testing building code" >> acc_test_output.txt'
      - "cat acc_test_output.txt"
-     - "zip -r NewsletterRepo.zip ./"
 
-artifacts:
-  files:
-    - 'NewsletterRepo.zip'
