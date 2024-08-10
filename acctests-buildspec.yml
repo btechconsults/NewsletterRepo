@@ -4,8 +4,9 @@ phases:
 
   build:
     commands:
-      - "echo "this test was successful right" >> acc_test_output.txt
-      - "cat acc_test_output.txt"
+     - "touch acc_test_output.txt"
+     - 'echo "testing building code" >> acc_test_output.txt'
+     - "cat acc_test_output.txt"
 
 artifacts:
   files:
