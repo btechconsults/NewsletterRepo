@@ -4,7 +4,6 @@ phases:
 
   build:
     commands:
-      - "touch acc_test_output.txt"
       - "echo "this test was successful right" >> acc_test_output.txt
       - "cat acc_test_output.txt"
 
