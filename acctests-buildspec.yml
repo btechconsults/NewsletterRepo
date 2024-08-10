@@ -10,5 +10,10 @@ phases:
      - "zip -r NewsletterCode.zip ./"
 artifacts:
   files:
-    - 'NewsletterCode.zip'
-
+    - README.md
+    - acctests-buildspec.yml
+    - appspec.yml
+    - index.html
+    - scripts/install_dependencies
+    - scripts/start_server
+    - scripts/stop_server
