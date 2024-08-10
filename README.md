@@ -1,1 +1,1 @@
-# NewsletterRepo
+# Newsletter
