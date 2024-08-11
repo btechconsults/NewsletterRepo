@@ -7,7 +7,7 @@ phases:
      - "touch acc_test_output.txt"
      - 'echo "testing codepipeine building code" >> acc_test_output.txt'
      - "cat acc_test_output.txt"
-     - "zip -r NewsletterCode.zip ./"
+     
 artifacts:
   files:
-    - NewsletterCode.zip
+    - cc_test_output.txt
