@@ -10,4 +10,4 @@ phases:
      
 artifacts:
   files:
-    - cc_test_output.txt
+    - - '**/*'
