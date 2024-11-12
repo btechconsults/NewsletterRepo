@@ -8,7 +8,7 @@ pipeline {
                 git url: "https://github.com/btechconsults/NewsletterRepo.git"   
 				
 			}
-
+		}
         stage('Install Apache Server') {
             steps {
                 script {
