@@ -1,1 +1,1 @@
-# NewsletterRepo - zYes
+# NewsletterRepo - Pipeline project 
