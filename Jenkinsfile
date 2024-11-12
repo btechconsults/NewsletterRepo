@@ -5,9 +5,9 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Fetch the code from the repository
-                git url: "https://github.com/btechconsults/NewsletterRepo.git", branch: 'main // Change 'main' to your desired branch
-            }
-        }
+                git url: "https://github.com/btechconsults/NewsletterRepo.git"   
+				
+			}
 
         stage('Install Apache Server') {
             steps {
